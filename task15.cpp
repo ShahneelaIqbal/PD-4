@@ -16,11 +16,11 @@ main()
 while(true)
 {
  playerMove(x, y);
- if(x < 74)
+ if(x < 73)
 {
  x=x+1;
 }
- if(x==74)
+ if(x==73)
 {
  gotoxy(x-1, y);
  cout << " ";
